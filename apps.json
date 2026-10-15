@@ -22,5 +22,11 @@
     "name": "IT",
     "url": "https://it.omranisystems.com/",
     "protected": true
+  },
+  {
+    "id": "gym",
+    "name": "Gym",
+    "url": "https://gym.omranisystems.com/",
+    "protected": true
   }
 ]

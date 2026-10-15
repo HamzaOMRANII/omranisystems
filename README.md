@@ -2,7 +2,7 @@
 
 One Node app (Express, run by PM2 behind Nginx, like the portfolio and the password manager):
 
-- **Homepage** — the logo, then the app icons (Pass, Chat, AI, IT).
+- **Homepage** — the logo, then the app icons (Pass, Chat, AI, IT, Gym).
 - **Code gate** — clicking an app asks for its code, then opens the subdomain.
 - **Direct-visit protection** — someone who types `pass.omranisystems.com` themselves is sent back to the code screen. The check runs in Nginx on the server, so it cannot be skipped from the browser.
 
