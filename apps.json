@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pass",
+    "name": "Pass",
+    "url": "https://pass.omranisystems.com/",
+    "protected": true
+  },
+  {
+    "id": "chat",
+    "name": "Chat",
+    "url": "https://chat.omranisystems.com/",
+    "protected": true
+  },
+  {
+    "id": "ai",
+    "name": "AI",
+    "url": "https://ai.omranisystems.com/",
+    "protected": true
+  },
+  {
+    "id": "it",
+    "name": "IT",
+    "url": "https://it.omranisystems.com/",
+    "protected": true
+  }
+]
