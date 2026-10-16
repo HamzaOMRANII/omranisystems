@@ -43,7 +43,9 @@
       });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.redirect) {
-        window.location.href = data.redirect;
+        // Keep a link's #part (e.g. H_CHAT's #add=ID from a QR code) through the unlock
+        const keepHash = location.pathname === "/unlock" && location.hash && !data.redirect.includes("#");
+        window.location.href = data.redirect + (keepHash ? location.hash : "");
         return;
       }
       errorEl.textContent = data.error || "Something went wrong.";
