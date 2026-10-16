@@ -58,5 +58,6 @@
   // Opened from a subdomain without a valid code: /unlock?app=pass
   const params = new URLSearchParams(window.location.search);
   const requested = params.get("app");
-  if (requested && names[requested]) openFor(requested);
+  // Hidden apps (no tile, e.g. adminchat) are accepted too; the server checks the id.
+  if (requested && /^[a-z]{1,20}$/.test(requested)) openFor(requested);
 })();

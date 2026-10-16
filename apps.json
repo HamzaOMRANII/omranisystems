@@ -7,7 +7,7 @@
   },
   {
     "id": "chat",
-    "name": "Chat",
+    "name": "H_CHAT",
     "url": "https://chat.omranisystems.com/",
     "protected": true
   },
@@ -28,5 +28,12 @@
     "name": "Gym",
     "url": "https://gym.omranisystems.com/",
     "protected": true
+  },
+  {
+    "id": "adminchat",
+    "name": "H_CHAT Admin",
+    "url": "https://adminchat.omranisystems.com/",
+    "protected": true,
+    "hidden": true
   }
 ]

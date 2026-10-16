@@ -101,7 +101,7 @@ app.use((req, res, next) => {
 
 // List of apps for the homepage (no codes, no secrets)
 app.get("/api/apps", (req, res) => {
-  res.json(apps.map(({ id, name, url, protected: p }) => ({ id, name, url, protected: p })));
+  res.json(apps.filter((a) => !a.hidden).map(({ id, name, url, protected: p }) => ({ id, name, url, protected: p })));
 });
 
 // Visitor submits a code from the homepage
