@@ -35,5 +35,12 @@
     "url": "https://adminchat.omranisystems.com/",
     "protected": true,
     "hidden": true
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "url": "https://finance.omranisystems.com/",
+    "protected": true,
+    "hidden": true
   }
 ]
